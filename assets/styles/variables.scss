@@ -1,0 +1,102 @@
+$p-font: sans-serif;
+$s-font: "Noto Sans JP", sans-serif;
+
+$p-color: #45ad39;
+$text-color: #222222;
+$t-color: #06032f;
+$b-color: #feeedd;
+
+//MediaQueries
+$xs-mobile: "only screen and (max-width: 480px)";
+$s-tablets: "only screen and (min-width: 481px) and (max-width: 767px)";
+$ls-tablets: "(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)";
+$sm-tablets: "(min-width: 768px) and (max-width: 1024px)";
+$m-laptop: "(min-width: 1025px) and (max-width: 1280px)";
+$b-desktop: "(min-width: 1281px)";
+
+/* @media #{ $ls-tablets, $sm-tablets} {
+   
+}
+@media #{$s-tablets, $ls-tablets, $sm-tablets} {
+  
+}
+
+@media #{$s-tablets} {
+ 
+}
+
+@media #{$xs-mobile} {
+  
+}
+ */
+
+//Scrollbar
+body::-webkit-scrollbar {
+  width: 0.85rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: $text-color;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: $p-color;
+  width: 1.85rem;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-color: $p-color #222222;
+}
+
+body {
+  margin: 0;
+  padding: 0;  
+
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+ul {
+  font-family: $s-font;
+  color: $text-color;
+}
+
+ul,
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  &:visited,
+  :active,
+  :hover,
+  :link {
+    text-decoration: none;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
