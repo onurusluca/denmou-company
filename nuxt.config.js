@@ -1,5 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
+  ssr: true,
+
   head: {
     title: "Denmou - 電網株式会社",
     meta: [
