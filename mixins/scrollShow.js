@@ -38,7 +38,6 @@ export default {
       } else {
         this.scrollNav = false;
       }
-      console.log(this.scrollNav);
     },
   },
 };
