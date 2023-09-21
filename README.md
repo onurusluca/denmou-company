@@ -5,7 +5,4 @@
 <a target=”_blank” href="https://denmou-company.vercel.app/" >ライブデモ</a>
 
 
-<a href="https://denmou-company.vercel.app/"><img src="https://www.linkpicture.com/q/denmou.png" type="image"></a>
-
-
-https://onurusluca.me/
+https://onurusluca.dev/
